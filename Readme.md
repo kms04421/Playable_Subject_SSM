@@ -9,6 +9,10 @@
 - LunaPlayground Account 
   - Email : actionfitgames02@gmail.com
   - Password : Action123!
+- 프로젝트 마감 
+  - 7월 9일 16:00
+- 프로젝트 제출 Form (해당 Form 기준으로 마감 처리합니다.)
+  - https://forms.gle/kXWLWvyjD4tAN7n88
 --- 
 
 ## ⚠️ 제작 시 주의사항
