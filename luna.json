@@ -85,7 +85,9 @@
             "dotnetVersion": ""
         },
         "assets": {
-            "export": [],
+            "export": [
+                "resources"
+            ],
             "excludes": [
                 "**/Editor/",
                 "**/FacebookSDK/",
@@ -130,7 +132,9 @@
                 "Assets/@SampleProject/TextMesh Pro/Resources/TMP Settings.asset"
             ]
         },
-        "scenes": [],
+        "scenes": [
+            "Assets/@Scenes/SampleScene.unity"
+        ],
         "disabledScenes": [],
         "startupScene": 0,
         "packages": {
@@ -154,7 +158,7 @@
             "logo": ""
         },
         "enableRealtimeShadows": false,
-        "enableLunaCompilerV2": false,
+        "enableLunaCompilerV2": true,
         "optimiseShaderVariantsExport": true,
         "enableMecanimWASM": true,
         "minify": true,
@@ -164,7 +168,38 @@
         "genericCheck": true,
         "disableAntiAliasing": true,
         "forceStableRandomSeed": false,
-        "unusedModules": [],
+        "unusedModules": [
+            {
+                "name": "physics3d",
+                "excluded": false,
+                "forceIncluded": false
+            },
+            {
+                "name": "physics2d",
+                "excluded": false,
+                "forceIncluded": false
+            },
+            {
+                "name": "particle-system",
+                "excluded": false,
+                "forceIncluded": false
+            },
+            {
+                "name": "reflection",
+                "excluded": false,
+                "forceIncluded": false
+            },
+            {
+                "name": "prefabs",
+                "excluded": false,
+                "forceIncluded": false
+            },
+            {
+                "name": "mecanim-wasm",
+                "excluded": false,
+                "forceIncluded": false
+            }
+        ],
         "disableRuntimeAnalysisForCode": true,
         "disableRuntimeAnalysisForShaders": false,
         "useShadersCache": true,
