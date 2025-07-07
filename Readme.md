@@ -6,9 +6,13 @@
 
 ### @Assets
 - **Effect**: 파티클 등의 이펙트 에셋 모음
+  - Extensions : UI Particle System
+  - Prefabs : UI Particle Prefabs [반짝이는 효과]
+  - ResourcesData : UI Mat, Shader, Texture 등
+- **Images**: HUD, CTA 등의 UI 텍스처 에셋
 - **Models**: 게임에 사용되는 3D 모델 에셋
-- **UI**: HUD, CTA 등의 UI 텍스처 에셋
-
+  - Case : 굿즈를 담는 케이스 모델 (fbx)
+  - Goods : 굿즈 모델 9종 (fbx + Texture)
 ### @SampleProjects
 - Luna Playable로 제작된 공식 샘플 프로젝트
 
@@ -39,5 +43,6 @@
 - 최종 `.html` 파일 크기는 반드시 **5MB 이하**로 유지해야 합니다.
     - 리소스 최적화를 위해 **Size Break** 기능을 꼭 활용해주세요.
 - 완성된 파일은 **Unity Playworks**에 업로드해 제출해야 합니다.
+  - 화면 기준은 "Portrait", Canvas Scale은 w 640 : h 850 입니다.
 
 ---
