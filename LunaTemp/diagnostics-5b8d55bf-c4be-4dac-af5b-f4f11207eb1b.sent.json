@@ -1,0 +1,197 @@
+{
+  "BuildID": "5b8d55bf-c4be-4dac-af5b-f4f11207eb1b",
+  "Command": "project:deploy",
+  "ProjectID": "1ea3bb43f778449c78ecaf64beaf075a",
+  "ProjectStateHash": "6e9fa9eac43c014cf14429470e27ca8b0c60d9120ed2d8b2e042f08e6e1da689",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 0,
+  "StartTime": 1751857920871,
+  "EndTime": 1751857967965,
+  "PlaygroundUserID": 5102,
+  "OperatingSystem": "darwin",
+  "UnityPackageID": null,
+  "TargetPlatform": "playground",
+  "UnityVersion": "2022.3.60f1",
+  "LunaVersion": "6.3.0",
+  "LogCount": 8,
+  "Logs": [
+    {
+      "LogID": "913b534c-78ab-49ad-9ae8-a7bf00f0b0e0",
+      "Order": 8,
+      "Timestamp": 1751857968062,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3008",
+      "Description": "You are only using: 1 custom events.",
+      "Details": [
+        "You are only using 1 custom events. It is recommended to use more custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        "1"
+      ],
+      "DetailsValues": [
+        "1"
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "17712ac7-0acc-4756-8a76-1aa17671eca0",
+      "Order": 0,
+      "Timestamp": 1751857924321,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1030",
+      "Description": "TMP Font Asset uses unsupported 'Atlas Population Mode'",
+      "Details": [
+        "TMP Font Asset '{0}' uses Atlas Population Mode '{1}' which is not supported"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "LiberationSans SDF - Fallback",
+        "Dynamic"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "a9202766-a746-4a57-aee4-3cc8ad5f6523",
+      "Order": 1,
+      "Timestamp": 1751857927975,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1006",
+      "Description": "Linear color space is not supported",
+      "Details": [
+        "Due to compatibility reasons, Luna is only able to use Gamma color space for rendering. Please adjust your player settings."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "72450f50-654d-4d21-a431-cfb83f65c983",
+      "Order": 2,
+      "Timestamp": 1751857927976,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1014",
+      "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+      "Details": [
+        "Navigate to the Runtime Analysis → Code tab to enable code stripping. Before uploading the playable, please make sure to have played all scenario’s of the playable in a development build to make Runtime Analysis work properly."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "279a1d6f-e301-47d2-b1e2-624e9aad90e5",
+      "Order": 3,
+      "Timestamp": 1751857927994,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1027",
+      "Description": "This DOTween version is not supported",
+      "Details": [
+        "The incorrect DOTween version for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "8ae81c15-a1d3-471f-b522-591d8e4d4c3b",
+      "Order": 4,
+      "Timestamp": 1751857927994,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1015",
+      "Description": "This TMP version is not fully supported",
+      "Details": [
+        "The incorrect Text Mesh Pro for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "ec5e007f-3809-4617-b2a5-183f221f456a",
+      "Order": 5,
+      "Timestamp": 1751857927994,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1032",
+      "Description": "Package(s) is not supported in Luna",
+      "Details": [
+        "Currently package(s) com.unity.timeline are not supported in Luna. We recommend you to remove it and workaround it's functionality."
+      ],
+      "DescriptionValues": [
+        "com.unity.timeline (1.7.6)"
+      ],
+      "DetailsValues": [
+        "com.unity.timeline"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "/Users/daniel/Documents/Playable/Playable_Subject/Packages/manifest.json",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "65630e8b-1b0c-41ce-b2bb-7a2a519714c4",
+      "Order": 6,
+      "Timestamp": 1751857927995,
+      "Stage": 1,
+      "ErrorType": 3,
+      "ErrorCode": "LP1002",
+      "Description": "Repeat wrap mode used on a texture with non power-of-two dimensions, this might not be rendered correctly.",
+      "Details": [
+        "Repeat wrap mode used on 'LiberationSans SDF Atlas' texture at 'Assets/@SampleProject/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset' with non power-of-two dimensions, this might not be rendered correctly."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "LiberationSans SDF Atlas",
+        "Assets/@SampleProject/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "Assets/@SampleProject/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    }
+  ]
+}

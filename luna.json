@@ -1,8 +1,8 @@
 {
     "version": "6.3.0",
     "projectId": "1ea3bb43f778449c78ecaf64beaf075a",
-    "applicationID": 10345,
-    "creativeName": "",
+    "applicationID": 22415,
+    "creativeName": "Subject-Test-Build",
     "pgServer": "EU",
     "window": {
         "‐″": true
@@ -133,9 +133,11 @@
             ]
         },
         "scenes": [
+            "Assets/@SampleProject/Scenes/SampleScene.unity"
+        ],
+        "disabledScenes": [
             "Assets/@Scenes/SampleScene.unity"
         ],
-        "disabledScenes": [],
         "startupScene": 0,
         "packages": {
             "default": {
@@ -241,6 +243,26 @@
                         "script": "",
                         "ext": "",
                         "name": "Resources/unity_builtin_extra/Default-Particle"
+                    },
+                    {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "png32",
+                        "compression": "none",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/@SampleProject/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset"
+                    },
+                    {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "png32",
+                        "compression": "none",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/@SampleProject/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
                     }
                 ]
             },
