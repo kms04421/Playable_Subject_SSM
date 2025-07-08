@@ -5,6 +5,15 @@ public class TrayData
     public int Key = -1;
     public bool isAnswer = false;
     public bool isMove = true;
+
+    public TrayData() { }
+    
+    public TrayData(int key)
+    {
+        Setkey(key);
+        milks.Add(key);
+        milks.Add(key);
+    }
     public void Setkey(int key)
     {
         Key = key;

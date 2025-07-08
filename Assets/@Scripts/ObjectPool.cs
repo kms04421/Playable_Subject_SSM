@@ -36,6 +36,16 @@ public class ObjectPool : MonoBehaviour
 
         return milk;
     }
+    public GameObject GetMilk(int index)
+    {
+        GameObject milk = milksList[index];
+
+        milksList.RemoveAt(index);
+
+        milk.transform.localScale = Vector3.one;
+
+        return milk;
+    }
     public void ReturnMilk(GameObject milk)
     {
         milk.SetActive(false);
@@ -62,7 +72,7 @@ public class ObjectPool : MonoBehaviour
             if (trays.activeSelf)
             {
                 Tray tray = trays.GetComponent<Tray>();
-                if (tray.trayData.Key == key && tray.trayData.isMove)
+                if (tray.trayData.Key == key && !tray.trayData.isAnswer && tray.trayData.isMove)
                 {
                     float y = tray.transform.position.y;
                     if (y < lowestY)

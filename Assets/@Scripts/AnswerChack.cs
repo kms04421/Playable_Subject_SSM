@@ -14,9 +14,9 @@ public class AnswerChack : MonoBehaviour
             trayData.isMove = false;
             if(!trayData.isAnswer)
             {
-                /*    ViewManager.Instance.Failure.gameObject.SetActive(true);
-                    Time.timeScale = 0f;*/
-                tray.Init();
+                ViewManager.Instance.Failure.gameObject.SetActive(true);
+                GameManager.Instance.TimeStop();
+    
             }
             else
             {

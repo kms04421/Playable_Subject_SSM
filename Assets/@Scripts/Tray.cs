@@ -1,6 +1,7 @@
 using DG.Tweening;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 public class Tray : MonoBehaviour
 {
@@ -8,12 +9,26 @@ public class Tray : MonoBehaviour
     public TextMeshProUGUI AnswerCount;
     public MeshRenderer MeshRenderer;
     public List<Transform> SettingPos;
+    public bool isTestMod = false;
     private List<GameObject> Milks = new List<GameObject>();
+
+    private void Start()
+    {
+        if(isTestMod)
+        {
+            trayData = new TrayData(3);
+            transform.DOMoveY(transform.position.y - 10,5).SetEase(Ease.InOutSine);
+        }
+        
+    }
     private void OnEnable()
     {
-        trayData = new TrayData();
-        Init();
-        DownDO();
+        if (!isTestMod)
+        {
+            trayData = new TrayData();
+            Init();
+            DownDO();
+        }
     }
     public void Init()
     {
@@ -22,6 +37,7 @@ public class Tray : MonoBehaviour
         AnswerCount.text = "3";
         foreach(GameObject Milk in Milks)
         {
+            Milk.transform.SetParent(null); // 부모에서 분리
             GameManager.Instance.pool.ReturnMilk(Milk);
         }
         trayData.milks.Clear();

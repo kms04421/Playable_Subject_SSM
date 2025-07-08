@@ -16,8 +16,11 @@ public class PlayerController : MonoBehaviour
                 // 예: Milk라는 태그가 있는 경우
                 if (hit.collider.CompareTag("Milk"))
                 {
-                    // 원하는 로직 실행
-                    hit.collider.GetComponent<Milk>().OnSelect();
+                    if(!GameManager.Instance.isTutorial)
+                    {
+                        hit.collider.GetComponent<Milk>().OnSelect();
+                    }
+                    // 원하는 로직 실행             
                 }
             }
         }
