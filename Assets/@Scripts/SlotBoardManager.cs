@@ -6,8 +6,8 @@ public class SlotBoardManager : MonoBehaviour
 {
     public List<SlotManager> slotColumns;
 
-    public float moveInterval = 2f; // 몇 초마다 위로 이동할지
+    /// <summary>
+    ///  SlotBoardManager 에서 모든 우유 이동을 관리합니다. 
+    /// </summary>
 
-
- 
 }
