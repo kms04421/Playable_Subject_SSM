@@ -82,6 +82,7 @@ public class SlotManager : MonoBehaviour
         }
         else
         {
+            target.PlaySelectAudio();
             target.StopAutoMovement();
             tray.MeilkInspect(target.gameObject);
         }

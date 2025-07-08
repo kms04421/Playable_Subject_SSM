@@ -10,6 +10,18 @@ public class Milk : MonoBehaviour
     private int currentIndex = 0;
     private Coroutine moveCoroutine;
     private bool isMoving = false; // 이동 중인지 확인하는 플래그
+    private AudioSource audioSource;
+    public void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+    /// <summary>
+    /// 오디오 재생
+    /// </summary>
+    public void PlaySelectAudio()
+    {
+        audioSource.Play();
+    }
     /// <summary>
     /// 우유가 선택되었을 때 호출되는 메서드.
     /// </summary>
