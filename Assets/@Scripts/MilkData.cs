@@ -6,4 +6,5 @@ public class MilkData : ScriptableObject
 {
     public string milkName;
     public GameObject prefab;
+    public int milkKey;
 }

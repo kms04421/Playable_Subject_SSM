@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   milkName: chocoMilk
   prefab: {fileID: 8452699096119433056, guid: f3db8b3377632e744ada1d585aa58107, type: 3}
+  milkKey: 1

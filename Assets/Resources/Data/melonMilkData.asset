@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   milkName: melonMilk
   prefab: {fileID: 2545673859912926574, guid: 6904cc61674c26449bbb0be61c6aa858, type: 3}
+  milkKey: 2

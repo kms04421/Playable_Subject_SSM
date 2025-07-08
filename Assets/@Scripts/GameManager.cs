@@ -9,13 +9,11 @@ public class GameManager: Singleton<GameManager>
     public SlotBoardManager board;
     public ObjectPool pool;
 
-
-    void Start()
+    private void Awake()
     {
         pool.SetObjectPool();
         FillBoard(); // 시작 채우기
     }
-
     void FillBoard()
     {
         foreach (var slot in board.slotColumns)
